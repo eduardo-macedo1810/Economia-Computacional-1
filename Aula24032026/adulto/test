@@ -1,0 +1,23 @@
+"""
+Programa: De a idade e ele classica
+Definição: pergunta a idade e se for maior de 18 imprime na tela
+Autor: Eduardo Macedo
+Data: 24/03/2026
+Versão: 0.0.1
+"""
+
+# Alocação
+idade =  0
+texto = ""
+
+# Alocação
+int(input("Qual a sua idade?: "))
+
+# Processamento 
+if idade < 18:
+    texto = "Oi, você é criança"
+else:
+    texto = "Oi, você é adulto"
+
+# Saída 
+print(texto)
